@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/custom_select_default_account_notification_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp">
+    <include layout="@layout/normal_default_account_select_title"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/account_select_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp">
+        <include layout="@layout/select_account_row_one"/>
+        <include layout="@layout/select_account_row_two"/>
+    </LinearLayout>
+</LinearLayout>

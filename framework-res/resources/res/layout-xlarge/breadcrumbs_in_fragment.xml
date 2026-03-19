@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/breadcrumb_section"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/preference_fragment_padding_side"
+    android:layout_marginEnd="@dimen/preference_fragment_padding_side">
+    <android.app.FragmentBreadCrumbs
+        android:gravity="start|center_vertical"
+        android:id="@+id/title"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="#404040"/>
+</LinearLayout>

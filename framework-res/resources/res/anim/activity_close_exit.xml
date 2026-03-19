@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false"
+    android:zAdjustment="top">
+    <translate
+        android:interpolator="@interpolator/fast_out_slow_in"
+        android:duration="425"
+        android:fromYDelta="0"
+        android:toYDelta="4.1%"/>
+    <cliprect
+        android:interpolator="@interpolator/fast_out_extra_slow_in"
+        android:duration="425"
+        android:config_autoResetAirplaneMode="100%"
+        android:config_auto_attach_data_on_creation="0%"
+        android:config_automatic_brightness_available="100%"
+        android:config_avoidGfxAccel="0%"
+        android:config_cecRcProfileSourceContentsMenuNotHandled_default="100%"
+        android:config_cecRcProfileSourceContentsMenu_userConfigurable="0%"
+        android:config_cecRcProfileSourceMediaContextSensitiveMenuHandled_allowed="100%"
+        android:config_cecRcProfileSourceMediaContextSensitiveMenuHandled_default="95.9%"/>
+    <alpha
+        android:interpolator="@interpolator/fast_out_linear_in"
+        android:duration="425"
+        android:fromAlpha="1"
+        android:toAlpha="1"/>
+</set>

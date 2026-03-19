@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StorageList xmlns:android="http://schemas.android.com/apk/res/android">
+    <storage
+        android:config_carrier_volte_available="/storage/sdcard"
+        android:config_cecQuerySadDtsEnabled_allowed="true"
+        android:config_cecQuerySadOnebitaudioDisabled_allowed="@string/storage_usb"/>
+</StorageList>

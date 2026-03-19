@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumbnail_height">420dp</dimen>
+    <dimen name="thumbnail_width">420dp</dimen>
+    <dimen name="default_app_widget_padding_bottom">20dp</dimen>
+    <dimen name="default_app_widget_padding_left">12dp</dimen>
+    <dimen name="default_app_widget_padding_right">12dp</dimen>
+    <dimen name="default_app_widget_padding_top">4dp</dimen>
+    <dimen name="dialog_fixed_width_major">50%</dimen>
+    <dimen name="dialog_fixed_width_minor">70%</dimen>
+    <dimen name="keyguard_avatar_frame_stroke_width">3dp</dimen>
+    <dimen name="keyguard_avatar_name_size">12sp</dimen>
+    <dimen name="keyguard_avatar_size">88dp</dimen>
+    <dimen name="keyguard_muliuser_selector_margin">24dp</dimen>
+    <dimen name="kg_clock_top_margin">0dp</dimen>
+    <dimen name="kg_runway_lights_top_margin">-30dp</dimen>
+    <dimen name="kg_status_clock_font_size">188dp</dimen>
+    <dimen name="kg_status_date_font_size">34dp</dimen>
+    <dimen name="kg_status_line_font_right_margin">32dp</dimen>
+    <dimen name="kg_status_line_font_size">19sp</dimen>
+    <dimen name="kg_widget_pager_horizontal_padding">80dp</dimen>
+    <dimen name="navigation_bar_height_portrait">@dimen/navigation_bar_height</dimen>
+    <dimen name="preference_breadcrumb_paddingLeft">32dp</dimen>
+    <dimen name="preference_breadcrumb_paddingRight">32dp</dimen>
+    <dimen name="preference_fragment_padding_bottom">16dp</dimen>
+    <dimen name="preference_fragment_padding_side">32dp</dimen>
+    <dimen name="preference_icon_minWidth">56dp</dimen>
+    <dimen name="preference_screen_header_padding_side">0dp</dimen>
+    <dimen name="preference_screen_header_vertical_padding">32dp</dimen>
+    <dimen name="preference_screen_header_vertical_padding_material">8dp</dimen>
+    <dimen name="preference_screen_side_margin_negative">-4dp</dimen>
+</resources>

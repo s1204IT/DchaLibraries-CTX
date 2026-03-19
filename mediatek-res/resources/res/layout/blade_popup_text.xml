@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AntialiasedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="40sp"
+    android:gravity="center"
+    android:maxWidth="53dp"
+    android:maxHeight="54dp"
+    android:minWidth="53dp"
+    android:minHeight="54dp"
+    android:includeFontPadding="false"/>

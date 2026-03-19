@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?attr/windowContentOverlay"
+        android:foregroundGravity="top|fill_horizontal"
+        android:config_autoBrightnessResetAmbientLuxAfterWarmUp="false"/>
+    <ViewStub
+        android:theme="?attr/actionBarTheme"
+        android:id="@+id/action_mode_bar_stub"
+        android:layout="@layout/action_mode_bar"
+        android:inflatedId="@+id/action_mode_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

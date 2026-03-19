@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <^attr-private name="factor">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="scale">
+        <item>32</item>
+    </^attr-private>
+</resources>

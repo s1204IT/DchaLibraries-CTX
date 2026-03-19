@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decelerateInterpolatorEx xmlns:mediatek="http://schemas.android.com/apk/res/com.mediatek" xmlns:android="http://schemas.android.com/apk/res/android"
+    mediatek:factor="1.5"
+    mediatek:scale="0.85"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bootup_mode">
+        <item>デュアルSIM</item>
+        <item>SIM1</item>
+        <item>SIM2</item>
+    </array>
+    <array name="gprs_mode_1">
+        <item>SIM1</item>
+        <item>データを接続しないでください。</item>
+        <item>キャンセル</item>
+    </array>
+    <array name="gprs_mode_2">
+        <item>SIM2</item>
+        <item>データを接続しないでください。</item>
+        <item>キャンセル</item>
+    </array>
+</resources>

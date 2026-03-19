@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.DecorCaptionView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="end"
+        android:id="@+id/caption"
+        android:background="@drawable/decor_caption_title"
+        android:focusable="false"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_gravity="end|center_vertical"
+            android:id="@+id/maximize_window"
+            android:background="@drawable/decor_maximize_button_dark"
+            android:padding="4dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/maximize_button_text"/>
+        <Button
+            android:layout_gravity="end|center_vertical"
+            android:id="@+id/close_window"
+            android:background="@drawable/decor_close_button_dark"
+            android:padding="4dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/close_button_text"/>
+    </LinearLayout>
+</com.android.internal.widget.DecorCaptionView>
